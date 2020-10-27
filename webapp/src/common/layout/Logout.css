@@ -1,0 +1,10 @@
+.Logout-bottom {
+  position: absolute;
+  top: 3px;
+  right: 20px;
+  padding: 4px;
+}
+
+.Logout-bottom .ui.button {
+  margin-right: 0;
+}

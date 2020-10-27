@@ -1,0 +1,62 @@
+.branding {
+  background-color: #0099cc !important;
+  border-radius: 0px !important;
+  border: none !important;
+  padding: 1.1em !important;
+  margin-bottom: 0px !important;
+
+  &__title {
+    color: white !important;
+    font-weight: 400 !important;
+  }
+}
+
+.content-menu {
+  background-color: #0075b0 !important;
+}
+
+.ui.menu.tabmenu {
+  max-width: 800px;
+  margin: 0 auto!important;
+  padding-top: 42px;
+  border-bottom: none;
+
+  .item {
+    background: #00375e;
+    border-radius: 2px;
+    margin-right: 12px;
+    &:hover {
+      background: rgba($color: #00375e, $alpha: 0.7)
+    }
+
+    a {
+      color: white;
+    }
+  }
+  .active.item {
+    background: #f2f2f2;
+    border-radius: 2px !important;
+
+    a {
+      color: #555555;
+    }
+  }
+}
+
+.ui.basic.wrapper {
+  background: #f2f2f2;
+  margin: 0;
+  min-height: calc(100vh - 142px);
+}
+
+.main-layout {
+  background: #ffffff;
+  margin: 24px auto;
+  max-width: 800px;
+  padding: 30px 24px;
+
+  .header.title {
+    color: #555555;
+    margin-bottom: 20px;
+  }
+}
